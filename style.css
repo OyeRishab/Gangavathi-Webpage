@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  font-family: 'Satisfy', cursive;
+}
+
+.header {
+  height: 735px;
+  background-size: cover;
+  background-image: url("images/gangavathi.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#title2 {
+  font-size: 48px;
+  margin: 0px;
+  margin-bottom: 130px;
+}
+
+#title3 {
+  margin: 0px;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  background: linear-gradient(#CFE6FE, white, #D5D2D6);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card-img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.text-box {
+  width: 500px;
+  font-family: 'Vollkorn', serif;
+  margin-left: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
